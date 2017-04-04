@@ -47,7 +47,7 @@
 		<main class="container py-4">
 			<h1 class="pb-4">Hello, <?php echo $myName; ?></h1>
 			<?php echo '<p>I was born in ' . $birthY . ', so I am about ' . $estAge . ' years old.</p>' ; ?>
-			<?php echo '<p>Your actual age is ' . getMyAge('05/04/1987') . '.</p>' ; ?>
+			<?php echo '<p>My actual age is ' . getMyAge('05/04/1987') . '.</p>' ; ?>
 		</main>
 	</body>
 </html>
